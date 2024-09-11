@@ -5,6 +5,9 @@ description = ""
 authors = ["Ashia Lewis <pantagruelspendulum@protonmail.com>"]
 readme = "README.md"
 
+[tool.poetry.scripts] 
+script = "interview.script:main"
+
 [tool.poetry.dependencies]
 python = "^3.10"
 pytest = "^8.3.2"
